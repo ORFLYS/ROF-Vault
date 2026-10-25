@@ -1,0 +1,84 @@
+name: scsvault
+description: "خزينتك - خزنة رقمية آمنة"
+publish_to: 'none'
+version: 1.0.2+3
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+
+  # Google Sign-In
+  google_sign_in: ^6.3.0
+
+  # Local Security
+  local_auth: ^2.3.0
+  flutter_secure_storage: ^9.2.4
+
+  # State Management
+  provider: ^6.1.2
+
+  # UI & UX
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+
+  # Media & Files
+  image_picker: ^1.1.2
+  file_picker: ^8.1.6
+  video_player: ^2.9.2
+  path_provider: ^2.1.5
+  url_launcher: ^6.3.0
+
+  flutter_displaymode: ^0.6.0
+  # Utilities
+  uuid: ^4.5.1
+  intl: ^0.19.0
+  timeago: ^3.7.0
+  path: ^1.9.0
+  
+  # Google Drive API Integrations
+  googleapis: ^13.1.0
+  googleapis_auth: ^1.4.1
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+  msix: ^3.16.8
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  image_path: "assets/icon.png"
+  windows:
+    generate: true
+    image_path: "assets/icon.png"
+    icon_size: 48
+
+msix_config:
+  display_name: ROF Vault
+  publisher_display_name: Orflys
+  identity_name: Orvex.iq.ROFVault
+  publisher: CN=1710346E-E22F-4082-A8FE-20968CC9C4CE
+  msix_version: 1.0.2.0
+  output_name: ROF_Vault_v1.0.2_Store
+  logo_path: assets/icon.png
+  store: true
+  capabilities: internetClient
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
