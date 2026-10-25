@@ -27,6 +27,41 @@
 
 ---
 
+## 📸 Screenshots | لقطات الشاشة الرسمية
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <b>🔐 Sign In & Authentication</b><br>
+        <img src="screenshots/01_signin.png" alt="Sign In Screen" width="100%" />
+      </td>
+      <td width="50%">
+        <b>🗂️ Vault Dashboard (Light Mode)</b><br>
+        <img src="screenshots/02_dashboard_light.png" alt="Dashboard Light Mode" width="100%" />
+      </td>
+    </tr>
+    <tr>
+      <td width="50%">
+        <b>☁️ Encrypted Cloud Backup (Google Drive)</b><br>
+        <img src="screenshots/03_cloud_backup.png" alt="Encrypted Cloud Backup" width="100%" />
+      </td>
+      <td width="50%">
+        <b>⚙️ Settings & Security Controls</b><br>
+        <img src="screenshots/04_settings.png" alt="Settings & Security" width="100%" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <b>🌙 Vault Dashboard (Dark Mode)</b><br>
+        <img src="screenshots/05_dashboard_dark.png" alt="Dashboard Dark Mode" width="70%" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
 ## ✨ Key Features | المميزات الرئيسية
 
 * 🛡️ **Military-Grade Encryption:** Local AES-256-GCM cryptographic protection ensures data is encrypted before reaching disk or cloud.
