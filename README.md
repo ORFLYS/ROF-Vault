@@ -18,6 +18,12 @@
   <img src="https://img.shields.io/badge/Developer-ORFLYS-blue" alt="Developer" />
 </p>
 
+<p align="center">
+  <a href="https://apps.microsoft.com/detail/9nfq9t88z30m" target="_blank">
+    <img src="https://get.microsoft.com/images/en-us%20dark.svg" width="220" alt="Download from Microsoft Store" />
+  </a>
+</p>
+
 ---
 
 ## 📖 Overview | نبذة عن البرنامج
@@ -25,6 +31,22 @@
 **ROF Vault** is an open-source, ultra-secure personal digital vault designed natively for Windows 10 and Windows 11. Built with military-grade **AES-256-GCM** encryption and an **offline-first** philosophy, ROF Vault gives you complete control over your private files, credentials, documents, and notes without third-party tracking, telemetry, or ads.
 
 **برنامج ROF Vault** هو خزنة رقمية شخصية مفتوحة المصدر متطورة وفائقة الأمان مخصصة لأجهزة نظام Windows، مصممة لحماية بياناتك وملفاتك الحساسة بأعلى معايير الخصوصية والتشفير. يعتمد البرنامج على خوارزمية التشفير العسكري **AES-256-GCM** مع بنية تعمل محلياً بالكامل دون أي تعقب أو إعلانات.
+
+---
+
+## 📥 Download from Microsoft Store | التحميل الرسمي
+
+The official and recommended way to install and receive automatic updates for **ROF Vault** is through the **Microsoft Store**:
+
+<p align="center">
+  <a href="https://apps.microsoft.com/detail/9nfq9t88z30m" target="_blank">
+    <img src="https://get.microsoft.com/images/en-us%20dark.svg" width="240" alt="Get it from Microsoft Store" />
+  </a>
+</p>
+
+* ✅ **Automatic Updates:** Always run the latest release with zero manual hassle.
+* ✅ **Microsoft Verified:** Scanned, certified, and digitally signed for Windows.
+* ✅ **100% Free & Private:** No ads, no hidden subscriptions, and zero tracking.
 
 ---
 
@@ -154,7 +176,7 @@ You are free to use, modify, and distribute this software in accordance with the
 
 * **Publisher:** [ORFLYS](https://orflys.com)
 * **Website:** https://orflys.com
-* **Product:** ROF Vault v1.0.2
+* **Store Product:** [ROF Vault on Microsoft Store](https://apps.microsoft.com/detail/9nfq9t88z30m)
 
 ---
 
