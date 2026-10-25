@@ -6,15 +6,13 @@
 
 <p align="center">
   <b>Military-Grade Personal Digital Vault for Windows</b><br>
-  <i>خزنة رقمية مفتوحة المصدر مشفرة وفائقة الأمان لنظام ويندوز لحماية بياناتك وملفاتك الحساسة</i>
+  <i>خزنة رقمية مشفرة وفائقة الأمان لنظام ويندوز لحماية بياناتك وملفاتك الحساسة</i>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?logo=windows&logoColor=white" alt="Platform" />
-  <img src="https://img.shields.io/badge/Flutter-3.41%2B-02569B?logo=flutter&logoColor=white" alt="Flutter" />
   <img src="https://img.shields.io/badge/Encryption-AES--256--GCM-success?logo=lock&logoColor=white" alt="AES-256-GCM" />
   <img src="https://img.shields.io/badge/Architecture-Offline--First-blueviolet" alt="Offline-First" />
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
   <img src="https://img.shields.io/badge/Developer-ORFLYS-blue" alt="Developer" />
 </p>
 
@@ -28,15 +26,15 @@
 
 ## 📖 Overview | نبذة عن البرنامج
 
-**ROF Vault** is an open-source, ultra-secure personal digital vault designed natively for Windows 10 and Windows 11. Built with military-grade **AES-256-GCM** encryption and an **offline-first** philosophy, ROF Vault gives you complete control over your private files, credentials, documents, and notes without third-party tracking, telemetry, or ads.
+**ROF Vault** is an advanced, ultra-secure personal digital vault designed natively for Windows 10 and Windows 11. Built with military-grade **AES-256-GCM** encryption and an **offline-first** philosophy, ROF Vault gives you complete control over your private files, credentials, documents, and notes without third-party tracking, telemetry, or ads.
 
-**برنامج ROF Vault** هو خزنة رقمية شخصية مفتوحة المصدر متطورة وفائقة الأمان مخصصة لأجهزة نظام Windows، مصممة لحماية بياناتك وملفاتك الحساسة بأعلى معايير الخصوصية والتشفير. يعتمد البرنامج على خوارزمية التشفير العسكري **AES-256-GCM** مع بنية تعمل محلياً بالكامل دون أي تعقب أو إعلانات.
+**برنامج ROF Vault** هو خزنة رقمية شخصية متطورة وفائقة الأمان مخصصة لأجهزة نظام Windows، مصممة لحماية بياناتك وملفاتك الحساسة بأعلى معايير الخصوصية والتشفير. يعتمد البرنامج على خوارزمية التشفير العسكري **AES-256-GCM** مع بنية تعمل محلياً بالكامل دون أي تعقب أو إعلانات.
 
 ---
 
 ## 📥 Download from Microsoft Store | التحميل الرسمي
 
-The official and recommended way to install and receive automatic updates for **ROF Vault** is through the **Microsoft Store**:
+The official way to download, install, and receive automatic updates for **ROF Vault** is through the **Microsoft Store**:
 
 <p align="center">
   <a href="https://apps.microsoft.com/detail/9nfq9t88z30m" target="_blank">
@@ -134,44 +132,6 @@ The official and recommended way to install and receive automatic updates for **
 
 ---
 
-## 🛠️ Building From Source | بناء المشروع من المصدر
-
-### Prerequisites
-* [Flutter SDK](https://flutter.dev) (v3.24+ recommended)
-* [Visual Studio](https://visualstudio.microsoft.com/) with "Desktop development with C++" workload installed
-* Git
-
-### Steps
-```bash
-# 1. Clone repository
-git clone https://github.com/ORFLYS/ROF-Vault.git
-cd ROF-Vault
-
-# 2. Fetch dependencies
-flutter pub get
-
-# 3. Run in debug mode on Windows
-flutter run -d windows
-
-# 4. Build release executable
-flutter build windows --release
-
-# 5. Build MSIX Store Package (optional)
-dart run msix:create
-```
-
----
-
-## 📄 License | الترخيص
-
-This project is open-source and licensed under the **[MIT License](LICENSE)**.
-You are free to use, modify, and distribute this software in accordance with the terms of the MIT License.
-
-هذا المشروع مفتوح المصدر ومرخص بموجب **[رخصة MIT](LICENSE)**.
-يحق لك وللجميع استخدام هذا البرنامج، وتعديله، وإعادة توزيعه بحرية تامة وفق شروط رخصة MIT.
-
----
-
 ## 👨‍💻 Developer & Publisher
 
 * **Publisher:** [ORFLYS](https://orflys.com)
@@ -181,5 +141,5 @@ You are free to use, modify, and distribute this software in accordance with the
 ---
 
 <p align="center">
-  <sub>Developed with ❤️ by <b>ORFLYS</b>. Licensed under the <a href="LICENSE">MIT License</a>.</sub>
+  <sub>Copyright © 2026 <b>ORFLYS</b>. All rights reserved.</sub>
 </p>
